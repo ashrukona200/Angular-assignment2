@@ -1,0 +1,16 @@
+h1{
+  text-align: center;
+  color: rgb(174, 31, 251);
+  margin-bottom: 30px;
+}
+thead{
+  color: rgb(239, 24, 60);
+  text-align: center;
+  font-size: larger;
+}
+tbody{
+  text-align: center;
+}
+#btnn{
+  text-align: center;
+}

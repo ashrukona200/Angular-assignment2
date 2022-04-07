@@ -1,0 +1,18 @@
+<nav class="navbar navbar-expand-sm navbar-light bg-light">
+  <a class="navbar-brand" routerLink="" id="heading">Employee Details</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+    aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <!--Adding three routes-->
+  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+    <div class="navbar-nav">
+      <a class="nav-item nav-link" routerLink="list" style="color: rgb(49, 141, 141);"><b>Employee List</b></a>
+      <a class="nav-item nav-link" routerLink="add" style="color: rgb(6, 193, 102);"><b>Add Employee</b></a>
+      <a class="nav-item nav-link" routerLink="edit" style="color: rgb(238, 57, 148);"><b>Edit Employee</b></a>
+    </div>
+  </div>
+</nav>
+
+<router-outlet></router-outlet>
